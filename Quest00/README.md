@@ -39,14 +39,18 @@ To verify if everything is in order: ls
 You should see the file my_first_file.
 
 Tip
-To test if your exercise(s) is/are correct(s), you can execute the command gandalf in your terminal.
++ To test if your exercise(s) is/are correct(s), you can execute the command gandalf in your terminal.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Quest00	My First File With Content
-Submit directory	ex01
-Submit file	my_first_file_with_content
-Description
-Create a file called my_first_file_with_content in your directory. Update its size.
+
+| Quest00	| My First File With Content |
+| ------- | -------------------------- |
+| Submit directory |	ex01 |
+| `Submit file` |	`my_first_file_with_content`|
+
+## Description
+
+Create a file called `my_first_file_with_content` in your directory. Update its size.
 
 Size needs to be: 40.
 How can a file have a size of 40?
