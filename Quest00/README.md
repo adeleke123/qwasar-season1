@@ -5,6 +5,7 @@ Remember to git add && git commit && git push each exercise!
 We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
 
 For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under `submit directory` and specific file names for each exercise are also provided at the beginning of each exercise under `submit file(s)`
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Introduction
@@ -24,14 +25,14 @@ If we compare this with learning how to play a sport, you must be able to stand 
 | `Submit file` | `my_first_file` |
 
 ## Description
-For this very first assignment, you will be asked to create a file called my_first_file in your directory.
+For this very first assignment, you will be asked to create a file called `my_first_file` in your directory.
 
 Which directory?
 It's specified above this sentence (Submit directory: ex00 ;-))
 
 Each assignment follows the same structure, you have to create a directory, go to the directory (cd), and work on your assignment.
 
-Proceed by creating a file with the command: touch as you've seen in the video.
+Proceed by creating a file with the command: `touch` as you've seen in the video.
 
 To verify if everything is in order: ls
 
@@ -40,6 +41,7 @@ You should see the file my_first_file.
 Tip
 To test if your exercise(s) is/are correct(s), you can execute the command gandalf in your terminal.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Quest00	My First File With Content
 Submit directory	ex01
 Submit file	my_first_file_with_content
