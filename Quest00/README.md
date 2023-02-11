@@ -52,32 +52,33 @@ Tip
 
 Create a file called `my_first_file_with_content` in your directory. Update its size.
 
-Size needs to be: 40.
+Size needs to be: `40`.
 How can a file have a size of 40?
 Each character (or letter) is 1, so you simply need to add 40 characters inside the file. ;-)
 
-In order to print this information, use the command ls -l (command is ls and -l is one option).
+In order to print this information, use the command `ls -l` (command is `ls` and `-l` is one option).
 
-Example00
-
+## Example00
+```
 $>ls -l
 xxxxxxxxx  x xxxxx  xxxxx  40 May  25 14:30 my_first_file_with_content
 $>
-We've replaced some values with x, which means they are not important at the moment. You can disregard them :)
+```
+We've replaced some values with `x`, which means they are not important at the moment. You can disregard them :)
 
+## Tips
+
+`$>` is a very common way to represent a `prompt`.
+
+How to read the above `Example00`:
+
+You are in a shell (the `$>`) and you've executed the command `ls -l`.
+It has printed: `xxxxxxxxx  x xxxxx  xxxxx  40 May  25 14:30 my_first_file_with_content`
+And the last line is reprinting the `prompt` `($>)`.
 Tips
-
-$> is a very common way to represent a prompt.
-
-How to read the above Example00:
-
-You are in a shell (the $>) and you've executed the command ls -l.
-It has printed: xxxxxxxxx  x xxxxx  xxxxx  40 May  25 14:30 my_first_file_with_content
-And the last line is reprinting the prompt ($>).
-Tips
-The terminal is the little box where you execute command at the bottom part of Docode.
-To test if your exercise(s) is/are correct(s), you can execute the command gandalf in your terminal.
-
++ The terminal is the little box where you execute command at the bottom part of `Docode`.
++ To test if your exercise(s) is/are correct(s), you can execute the command `gandalf` in your terminal.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Quest00	My First File With Content And Perms
 Submit directory	ex02
 Submit file	my_first_file_with_content_and_perms
