@@ -1,11 +1,13 @@
-Quest01
+## Quest01
 Remember to git add && git commit && git push each exercise!
 
 We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
 
-For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under submit directory and specific file names for each exercise are also provided at the beginning of each exercise under submit file(s).
+For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under `submit directory` and specific file names for each exercise are also provided at the beginning of each exercise under `submit file(s)`.
 
-Introduction
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Introduction
 Welcome to the first coding with C quest.
 
 C is a very powerful language, most of all new language are either using C syntax or built on C (Python / Ruby / Javascript / C++ / ...)
@@ -17,10 +19,12 @@ You will use your first System Call: write().
 
 If we continue with our comparison on learning how to stand up before being able to walk then run in order to enjoy playing a sport with this quest you will learn to walk! :-)
 
-Quest01	My First Compilation
-Submit directory	ex00
-Submit file	my_first_compilation.c
-Description
+| Quest01 | My First Compilation |
+| ------- | -------------------- |
+| Submit directory	| ex00 |
+| `Submit file` | `my_first_compilation.c` |
+
+## Description
 The last part of coding is compiling, but we will start with this. :)
 
 What is compilation?
