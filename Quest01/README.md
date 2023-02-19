@@ -80,10 +80,12 @@ To test if your exercise(s) is/are correct(s), you can execute the command `gand
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Quest01	My First Variable Integer
-Submit directory	ex01
-Submit file	my_first_variable_integer.c
-Description
+| Quest01 | My First Variable Integer |
+| ------- | ------------------------- |
+| Submit directory | ex01 |
+| `Submit file` | `my_first_variable_integer.c` |
+
+## Description
 The first part of coding is to create a variable. Let's get started with an integer variable.
 What does integer variable mean?
 In most languages, you have types. A good example is that a letter is different from a number.
