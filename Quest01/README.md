@@ -12,7 +12,7 @@ Welcome to the first coding with C quest.
 
 C is a very powerful language, most of all new language are either using C syntax or built on C (Python / Ruby / Javascript / C++ / ...)
 
-C is not easy because you have to handle types and memory but being an expert in those two areas will give you a very powerful advantage.
+C is not easy because you have to handle `types` and `memory` but being an expert in those two areas will give you a very powerful advantage.
 
 This quest will lead you to the basic C syntax (variable, if, while-loop, functions and ASCII)
 You will use your first System Call: write().
@@ -30,42 +30,55 @@ The last part of coding is compiling, but we will start with this. :)
 What is compilation?
 It transforms a text file (yes a file of code is a text file) into a binary file.
 
-How to compile?
-
+## How to compile?
+```
 gcc -o my_first_compilation my_first_compilation.c
+```
+```
 -o stands for output, it will be the name of the binary we want to create.
 xxxx.c -> C file we want to compile
+```
 Let's dive in.
 
-Step00
-We will use this C file (you can copy paste it). You need to name it: my_first_compilation.c
+## Step00
 
+We will use this C file (you can copy paste it). You need to name it: my_first_compilation.c
+```
 #include <stdio.h>
 
 int main(int ac, char **av) {
     printf("my_first_compilation.\n");
     return 0;
 }
-Step01
+```
+## Step01
 Run the compilation command:
-
+```
 gcc -o my_first_compilation my_first_compilation.c
-Step02
-Execution
 
+```
+## Step02
+Execution
+```
 ./my_first_compilation
+
+```
 It should print my_first_compilation. :)
 
-(The \n means it will go to a new line.)
+(The `\n` means it will go to a new line.)
 
-Example 00
-
+## Example 00
+```
 Input: 
 Output: my_first_compilation.
 
 Return Value: nil
+
+```
 Tip
-To test if your exercise(s) is/are correct(s), you can execute the command gandalf in your terminal.
+To test if your exercise(s) is/are correct(s), you can execute the command `gandalf` in your terminal.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Quest01	My First Variable Integer
 Submit directory	ex01
