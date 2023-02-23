@@ -5,7 +5,7 @@ We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S
 
 For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under `submit directory` and specific file names for each exercise are also provided at the beginning of each exercise under `submit file(s)`
 
-Introduction
+## Introduction
 Let's practice.
 
 We will rebuild some of the C library functions to understand how they work.
