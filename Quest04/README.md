@@ -347,3 +347,4 @@ Return Value: "{x: 2, y: 1, direction: 'down'}"
 Tip
 (In C)
 In C, you can use snprintf.
+Made at Qwasar SV -- Software Engineering School <img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'>
