@@ -295,15 +295,18 @@ Space is infinite, so the x,y coordinates you return could be placed on a seemin
 
 So let's say an upward-facing rocket ship leaves its starting point of 0,0 and is given the flight path of “RRALAA”, its final location will be 2,-1 and it will be facing right.
 
-Your Job
+## Your Job
 You must create a function that takes in a flight path of a rocket ship as a string of letters and returns the following format:
 "{x: X, y: Y, direction: 'DIRECTION'}"
 X,Y represent the ending coordinates of your ship and direction represents its final direction.
 
-Notes
+## Notes
+
 Function my_spaceship returns a STRING.
 
-We are using Computer Graphics Coordinate System
+[We are using Computer Graphics Coordinate System](https://fcs-cs.github.io/cs1-2018/modules/01-introduction/computer-coordinates/)
+
+![image](https://user-images.githubusercontent.com/51156057/222261272-32788adc-8dab-4c7f-a0d1-275e632489ae.png)
 
 
 All spaceships will start at 0,0 and will face up
