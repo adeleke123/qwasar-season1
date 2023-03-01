@@ -1,0 +1,9 @@
+find . -type f \( -name '*~' -o -name '#*#' \) -print -delete
+: '
+Explanation:
+
+find .: search for files in the current directory (.) and its subdirectories.
+-type f: only search for regular files, not directories.
+-name '*~' -o -name '#*#': search for files with names ending in ~ or starting and ending with #. The -o flag means "or", so this will match either of those conditions.
+-print: print the names of the files found.
+-delete: delete the files found.
