@@ -4,6 +4,7 @@ Remember to git add && git commit && git push each exercise!
 We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
 
 For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under `submit directory` and specific file names for each exercise are also provided at the beginning of each exercise under `submit file(s)`
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Introduction
@@ -23,15 +24,17 @@ Exercise: my_count_files
 
 Write a command line that counts and displays the number of regular files and directories in the current directory and all its sub-directories. It should include ".", the starting directory.
 
-Example 00
+## Example 00
+```
 Example of output:
 
 $>./my_count_files | cat -e
 13$
 $>
+```
 Tips
-You should dig into the command ls (man ls)
-You should dig into the command wc (man wc)
++ You should dig into the command ls (man ls)
++ You should dig into the command wc (man wc)
 
 Quest05	My Clean
 Submit directory	ex01
@@ -43,14 +46,15 @@ The command line will print and delete all files found.
 Only one command is allowed: no ; or && or other gitaneries.
 
 Example 00
-
+```
 $>my_clean
 ./.zshrc~
 ...
 ./blah/#tat#
 $>
+```
 Tip
-You should dig into the command find (man find)
++ You should dig into the command find (man find)
 
 Quest05	My Find Sh
 Submit directory	ex02
