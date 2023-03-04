@@ -63,18 +63,19 @@ Description
 Write a command line that searches for all file names that end with ".sh" (without quotation marks) in the current directory and all its sub-directories. It should display only the name of files without the extension .sh.
 
 Example 00
-
+```
 $>./my_find_sh | cat -e
 file1$
 file2$
 file3$
 $>
+```
 Tips
-You should dig into the command find (man find) specially the -exec option
-You should dig into the command basename
-You should dig into the command rev (man rev)
-You should dig into the command cut (man cut)
-You should dig into the command sed (man sed)
++ You should dig into the command find (man find) specially the -exec option
++ You should dig into the command basename
++ You should dig into the command rev (man rev)
++ You should dig into the command cut (man cut)
++ You should dig into the command sed (man sed)
 
 Quest05	My Patch
 Submit directory	ex03
@@ -83,7 +84,7 @@ Description
 Patch transform a file origin to a fixed file applying the transformation or you can called it patch.
 
 Create a file my_patch, so that:
-
+```
 $>diff a my_patch > sw.diff
 Use the patch command to apply the patch on file a from the diff sw.diff. :-)
 
@@ -117,6 +118,7 @@ $>cat sw.diff
 8d10
 < Pursued by the Empire's sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy...
 $>
+```
 Tips
-You will need to use the command patch (man patch)
-When you copy both files, make sure to return to the line. (press enter :D)
++ You will need to use the command patch (man patch)
++ When you copy both files, make sure to return to the line. (press enter :D)
