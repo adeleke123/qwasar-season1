@@ -13,10 +13,12 @@ The objective is to be more of an expert with find and discover -type file optio
 
 Finally, pipe (|) lets you chain commands.
 
-Quest05	My Count Files
-Submit directory	ex00
-Submit file	my_count_files
-Description
+| Quest05	| My Count Files |
+| ------- | --------------- |
+| Submit directory	| ex00 |
+| Submit file |	my_count_files |
+
+## Description
 Exercise: my_count_files
 
 Write a command line that counts and displays the number of regular files and directories in the current directory and all its sub-directories. It should include ".", the starting directory.
