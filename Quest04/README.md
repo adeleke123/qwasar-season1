@@ -34,12 +34,12 @@ int* my_range(int param_1, int param_2)
 
 }
 ```
-Example 00
+## Example 00
 
 Input: 1 && 4
 Output: 
 Return Value: [1, 2, 3]
-Example 01
+## Example 01
 
 Input: 7 && 10
 Output: 
@@ -58,7 +58,7 @@ Let's allocate a string (or array of characters).
 We have the string: "abc" and we want a copy in a new part of memory that you will have to malloc.
 
 (Reproduce the behavior of strdup from man strdup)
-
+```
 Function prototype (c)
 /*
 **
@@ -74,6 +74,7 @@ char* my_strdup(char* param_1)
 {
 
 }
+```
 Example 00
 
 Input: "abc"
