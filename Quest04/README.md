@@ -16,7 +16,7 @@ Min included - max excluded.
 If min value is greater or equal to max's value, a null pointer should be returned.
 
 Don't worry about "free", it will be done in our main().
-
+```
 Function prototype (c)
 /*
 **
@@ -33,6 +33,7 @@ int* my_range(int param_1, int param_2)
 {
 
 }
+```
 Example 00
 
 Input: 1 && 4
