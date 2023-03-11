@@ -23,23 +23,26 @@ Unlike the real Cat command, you don't have to handle any options. :-)
 
 [[examples]]
 language = "Javascript"
-
+```
 $>node my_cat file1
 content_file_1
 content_file_2
 $>
+```
 Example Python
-
+```
 $>python my_cat file1 file2
 content_file_1
 content_file_2
 $>
+```
 Example Ruby
-
+```
 $>ruby my_cat file1 file2
 content_file_1
 content_file_2
 $>
+```
 Example java
 
 $>java my_cat file1 file2
