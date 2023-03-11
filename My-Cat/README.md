@@ -44,17 +44,19 @@ content_file_2
 $>
 ```
 Example java
-
+```
 $>java my_cat file1 file2
 content_file_1
 content_file_2
 $>
+```
 Example Rust <3
-
+```
 $>./my_cat file1 file2
 content_file_1
 content_file_2
 $>
+```
 Tips
 
 Google: man cat
