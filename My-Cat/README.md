@@ -58,11 +58,19 @@ content_file_2
 $>
 ```
 Tips
-
+```
 Google: man cat
+```
+```
 Google: YOURCODINGLANGUAGE open file
+```
+```
 Google: YOURCODINGLANGUAGE read file
+```
+```
 Google: YOURCODINGLANGUAGE close file (don't forget to close.)
 For javascript folks:
-
+```
+```
 Google Why does Node.js' fs.readFile() return a buffer instead of string :-)
+```
