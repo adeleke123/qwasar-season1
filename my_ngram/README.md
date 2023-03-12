@@ -14,7 +14,7 @@ For each exercise, you will have to create a folder and in this folder, you will
 | `Submit files` | `Makefile - *.c - *.h` |
 | Languages	| It needs to be completed in the language you are working on right now. If you are doing 
 		  Bootcamp Javascript, then javascript (file extension will be .js). If you are doing Bootcamp 
-		  Ruby, then Ruby (file extension will be .rb). It goes the same for Python, Java, C++, Rust, ... |
+		  Ruby, then Ruby (file extension will be .rb). It goes the same for Python, Java, C++, Rust, ... 
 Description
 SPECIFICATIONS
 Write a program my_ngram; It will count the number of occurrences per character.
