@@ -12,7 +12,7 @@ For each exercise, you will have to create a folder and in this folder, you will
 | -------- | -- |
 | Submit directory |	. |
 | `Submit files` | `Makefile - *.c - *.h` |
-| Languages	  It needs to be completed in the language you are working on right now. If you are doing 
+| Languages	  | It needs to be completed in the language you are working on right now. If you are doing 
 		  Bootcamp Javascript, then javascript (file extension will be .js). If you are doing Bootcamp 
 		  Ruby, then Ruby (file extension will be .rb). It goes the same for Python, Java, C++, Rust, ... 
 Description
@@ -37,7 +37,7 @@ It will display, one per line, each character and the numbers of times it appear
 Order will be alphanumerical.
 
 Example 00
-
+```
 $>./my_ngram "abcdef"
 a:1
 b:1
@@ -46,20 +46,22 @@ d:1
 e:1
 f:1
 $>
+```
 Example 01
-
+```
 $>./my_ngram "        "
  :8
 $>
 8 spaces :-)
-
+```
 Example 02
-
+```
 $>./my_ngram "aaabb" "abc"
 a:4
 b:3
 c:1
 $>
+```
 Technical information:
 (If you are doing this as project) you must create a Makefile, and the output is the command itself
 You can use:
@@ -75,7 +77,7 @@ Requirements
 Your code must be compiled with the flags -Wall -Wextra -Werror.
 Your makefile must have a clean & fclean rules.
 Example of some rules for Makefiles:
-
+```
 all : $(TARGET)
 
 $(TARGET) : $(OBJ)
@@ -91,6 +93,7 @@ fclean: clean
 	rm -f $(TARGET)
 
 re: fclean all
+```
 Warnings
 It's a bad practice to submit "object/binary files". Gandalf will reject your project if you submit your binary. (with the following message: "pushed file wrong format")
 
