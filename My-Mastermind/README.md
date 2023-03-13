@@ -5,6 +5,8 @@ We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S
 
 For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under `submit directory` and specific file names for each exercise are also provided at the beginning of each exercise under `submit file(s)`.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 | My Mastermind	|     |
 | ------------- | --- |
 | Submit directory | .  |
@@ -85,21 +87,29 @@ It's consider as a normal execution.
 read() is a syscall difficult to apprehend, you will have time to deal more with it in a later project. In this project, you should read 1 character by 1 (use read(0, &c, 1)) and add them one by one to a buffer until you encounter a newline.
 
 Example:
-
+```
 [/tmp/]bash
 bash-3.2$ exit
 [/tmp/]
+```
 In this example, bash exited successfully and also printed "exit".
 
 Output formats
-When your program starts, you must display:
+
++ When your program starts, you must display:
+```
 Will you find the secret code?
 Please enter a valid guess
-When the user wins, you must display:
+```
++ When the user wins, you must display:
+```
 Congratz! You did it!
-When the user enters an invalid code, you must respect the following format:
+```
++ When the user enters an invalid code, you must respect the following format:
+```
 Well placed pieces: X
 Misplaced pieces: Y
+```
 X and Y are two digits with the correct values.
 
 Requirements
