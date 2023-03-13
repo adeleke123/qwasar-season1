@@ -1,15 +1,18 @@
-My Mastermind
+## My Mastermind
 Remember to git add && git commit && git push each exercise!
 
 We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
 
-For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under submit directory and specific file names for each exercise are also provided at the beginning of each exercise under submit file(s).
+For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under `submit directory` and specific file names for each exercise are also provided at the beginning of each exercise under `submit file(s)`.
 
-My Mastermind	
-Submit directory	.
-Submit files	Makefile - *.c - *.h
-Description
-SPECIFICATIONS
+| My Mastermind	|     |
+| ------------- | --- |
+| Submit directory | .  |
+| `Submit files`	| `Makefile - *.c - *.h` |
+
+## Description
+## SPECIFICATIONS
+
 Write a program called mastermind; it will be an implementation of the famous game.
 
 NAME
@@ -37,7 +40,7 @@ Your program will also receive the following parameters:
 -t [ATTEMPTS]: specifies the number of attempts; by default, the playerhas 10 attempts.
 
 Example 00
-
+```
 PROMPT>./my_mastermind -c "0123"
 Will you find the secret code?
 Please enter a valid guess
@@ -57,6 +60,7 @@ Misplaced pieces: 2
 Round 2
 >0123
 Congratz! You did it!
+```
 Technical information
 you must create a Makefile, and the ouput is the command itself
 It will contain rule all/clean/fclean (re => fclean + all)
