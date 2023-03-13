@@ -112,12 +112,13 @@ Misplaced pieces: Y
 ```
 X and Y are two digits with the correct values.
 
-Requirements
+## Requirements
 Your code must be compiled with the flags -Wall -Wextra -Werror.
 Multiline macros are forbidden
 Include another .c is forbidden
 Macros with logic (while/if/variables/...) are forbidden
-Hint(s)
+
+## Hint(s)
 man 2 read
 man rand
 Makefile, case sensitivity is important.
