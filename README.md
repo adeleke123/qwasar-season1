@@ -4,3 +4,4 @@ This track contain the following
 + My mastermind
 + printf
 + my-cat
++ my_square
