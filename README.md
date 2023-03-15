@@ -3,5 +3,5 @@ This track contain the following
 + My Ngram
 + My mastermind
 + printf
-+ my-cat
-+ my_square
++ my Cat
++ my Square
