@@ -11,7 +11,8 @@ To install the project, simply download the source files and compile them with y
 
 ### Usage
 To use the my printf function, include the header file in your C program. Then call the function with a format string and any number of arguments
-
+```
 ./my_project argument1 argument2
-The Core Team
+```
+### The Core Team
 Made at [Qwasar SV -- Software Engineering School](https://qwasar.io/) <img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'>
